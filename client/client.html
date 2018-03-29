@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Goime Online</title>
+        <link rel="stylesheet" href="/style.css">
+        <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+        <canvas id='game' style="background-color: antiquewhite"></canvas>
+        <script>
+            c = document.getElementById('game');
+            window.onload = window.onresize = function() {
+                c.width = window.innerWidth -16;
+                c.height = window.innerHeight -16;
+                draw();
+            }
+        </script>
+        <script src="client.js"></script>
+    </body>
+</html>

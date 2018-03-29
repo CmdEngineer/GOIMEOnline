@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Goime Online Server Side",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "CmdEngineer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4"
+  }
+}
